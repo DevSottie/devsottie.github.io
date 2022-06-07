@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: yellow;
+	min-width: 100vw;
 }
 #link-topo{
 	text-decoration: none;
@@ -22,7 +23,7 @@ body {
 	border-radius: 100%;
 }
 
-.navbar {
+/*.container {
 	display: flex;
 	text-decoration: none;
 	position: fixed;
@@ -31,16 +32,16 @@ body {
 	width: 100%;
 	color: white;
 }
-.navbar li{
+.container li{
 	border-radius: 5vh;
 	color: white;
 }
 
-.navbar li:hover{
+.container li:hover{
 	background-color: #0055ff;
 	transition: 0.5s;
 	color: #fff;
-}
+}*/
 
 #nossa-equipe img{
 	border-radius: 100%;
@@ -70,16 +71,15 @@ body {
 	text-decoration: none;
 	color: #333;
 }
-
-.navbar-toggler-icon {
+/*#icone-logo {
 	width: 200px;
 }
 
-.navbar-toggle-icon img {
+#icone-logo img {
 	height: 100px;
 	width: 100px;
 	margin-right: 20px;
-}
+}*/
 
 .content {
 	padding-right: 5vw;
@@ -90,6 +90,6 @@ body {
 	text-align: justify;
 }
 
-#quem-somos {
+/*#quem-somos {
 	margin-top: 120px;
-}
+}*/

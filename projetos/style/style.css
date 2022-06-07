@@ -9,8 +9,15 @@ body {
 	padding: 0;
 	background-color: yellow;
 }
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+}
 .navbar{
 	flex-wrap: nowrap;
+	box-shadow: 10px 10px 10px #cc0;
 }
 #link-topo{
 	text-decoration: none;
@@ -18,12 +25,13 @@ body {
 	background-color: blue;
 	height: 70px;
 	width: 70px;
-	padding-top: 20px;
+	padding-bottom: auto;
 	position: fixed;
 	right: 5vw;
 	bottom: 5vh;
 	box-shadow: 3px 3px 10px #333;
 	border-radius: 100%;
+	font-size: 40px;
 }
 
 /*.container {
@@ -37,6 +45,7 @@ body {
 }
 */
 .nav-item{
+	font-size: 75%;
 	border-radius: 5vh;
 	color: white;
 }
@@ -63,6 +72,10 @@ body {
 .aluno {
 	max-width: 300px;
 	align-items: center;
+	border: 3px solid rgba(0, 0, 255, .5);
+	border-radius: 2vh;
+	margin: 10px;
+	padding: 5px;
 }
 
 .aluno h3 {
@@ -89,16 +102,27 @@ body {
 .content {
 	padding-right: 5vw;
 	padding-left: 5vw;
+	margin-bottom: 50px;
 }
 
 .content p{
 	text-align: justify;
 }
 
+.content ul{
+	text-align: left;
+}
+
 #logo-grande{
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
+}
+
+.logo-info ul, li, p{
+	text-align: left;
+	justify-content: left;
+	text-decoration: none;
 }
 
 /*#quem-somos {

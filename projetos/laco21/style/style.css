@@ -67,12 +67,12 @@ ul{
 .nav-item{
 	font-size: 75%;
 	border-radius: 5vh;
-	color: white;
 }
 
 .nav-item:hover{
 	background-color: #990;
 	transition: 0.5s;
+	color: white;
 }
 
 #nossa-equipe img{
